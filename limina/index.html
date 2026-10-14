@@ -23,7 +23,7 @@
 <body>
 
 <h1>Privacy Policy for Limina</h1>
-<p class="updated">Last updated: September 8, 2026</p>
+<p class="updated">Last updated: October 14, 2026</p>
 
 <p>Limina is a photo library management app for iOS. This policy explains what
 information the app accesses and what it does with it.</p>
@@ -49,8 +49,8 @@ never synced to iCloud or to any server, and is not accessible to the developer.
 <h2>Advertising (free version)</h2>
 <p>The free version of Limina shows ads. These are served by Google AdMob, and
 the app includes Google's Mobile Ads SDK and Google's User Messaging Platform
-(UMP) to deliver them and to record consent. The Pro tier removes ads entirely;
-for Pro users the app makes no ad requests.</p>
+(UMP) to deliver them and to record consent. The Pro tier removes ads entirely:
+for Pro users the app requests no ads and never shows the tracking prompt.</p>
 
 <p><strong>Ads are non-personalized by default.</strong> They only become
 personalized if both of these are true:</p>
@@ -60,6 +60,14 @@ personalized if both of these are true:</p>
   <li>where local law requires it (the EEA, the UK, and Switzerland), you also
   give consent in the Google UMP form.</li>
 </ul>
+
+<p>Non-personalized ads still need some information to work. To deliver an ad,
+Google receives technical information such as your IP address (from which it
+estimates a general location), your device model and iOS version, which ad was
+shown and whether you interacted with it, and diagnostic data about the ad SDK's
+own performance and crashes. Google uses it to serve and measure ads, limit how
+often you see the same one, and prevent fraud — not to choose ads based on your
+past activity.</p>
 
 <p>When ads are personalized, Google and its advertising partners may use your
 device's advertising identifier (IDFA) together with ad-interaction data and
@@ -77,23 +85,27 @@ decline, ads stay non-personalized. You can change your choice at any time:</p>
   Settings screen, which reopens the Google UMP form;</li>
   <li>United States state privacy rights (including the right to opt out of the
   "sale" or "sharing" of your personal information) — the same "Privacy options"
-  row.</li>
+  row wherever Google's rules show it, or by writing to the address under
+  Contact.</li>
 </ul>
 
-<p>Limina also uses RevenueCat to attribute advertising revenue in aggregate, so
-the developer can see how much ad income the app generates. This does not add any
-identifier beyond what Google already processes for the ad itself.</p>
+<p>Limina also reports each ad event — an ad loaded, shown or opened, and the
+revenue it earned — to RevenueCat, so the developer can see how much the app
+earns from ads. RevenueCat links these events to the same random, anonymous
+identifier it uses for purchases (see below). It does not receive your name,
+your email address or your advertising identifier.</p>
 
 <h2>Analytics</h2>
-<p>Limina does not use any analytics SDK and does not build a profile of how you
-use the app.</p>
+<p>Limina does not include any analytics SDK, and the developer does not build a
+profile of how you use the app.</p>
 
 <h2>In-app purchases</h2>
 <p>Limina may offer an optional paid tier ("Pro") through Apple's standard
 in-app purchase system. Any payment is handled entirely by Apple; Limina does
-not receive or store your payment information. Purchase and subscription status may
-be processed through RevenueCat, a subscription-management service, solely to
-confirm your entitlement — see
+not receive or store your payment information. Purchase and subscription status
+are processed through RevenueCat, a subscription-management service, under a
+random, anonymous identifier it creates on your device — to confirm your
+entitlement, and to report ad revenue as described above. See
 <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat's own privacy policy</a>
 for details on how they handle this.</p>
 
@@ -108,6 +120,12 @@ with an updated "last updated" date.</p>
 <h2>Contact</h2>
 <p>Questions about this policy can be sent to
 <a href="mailto:bordelle.entertainment@gmail.com">bordelle.entertainment@gmail.com</a>.</p>
+
+<p>The "Send feedback" option in Limina's Settings opens your own mail app with a
+message to that address. The message ends with a line giving the app version,
+your iOS version, your device model and the language Limina is shown in; it is in
+plain sight, and you can edit or delete it before sending. Nothing is sent unless
+you send the message yourself.</p>
 
 <footer>
   <a href="support/">Support</a> &nbsp;·&nbsp; <a href="../">Other apps</a>
